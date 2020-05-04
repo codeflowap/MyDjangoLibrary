@@ -1,0 +1,7 @@
+/.idea
+**/.directory
+/Pipfile.lock
+
+# Django Ignores.
+**/migrations/*.py
+!**/migrations/__init__.py
