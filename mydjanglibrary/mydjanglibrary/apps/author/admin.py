@@ -1,5 +1,5 @@
 from django.contrib import admin
-from library_project.apps.author.models import Author
+from mydjanglibrary.apps.author.models import Author
 
 @admin.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
